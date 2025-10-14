@@ -46,7 +46,8 @@ Before you begin, ensure you have:
 🚀 Installation 
 
 1. Clone the Repository
-      git clone https://github.com/yourusername/noteflow.git
+      git clone https://github.com/amalsunny-cloud/NoteFlow-ReactNative
+
       cd noteflow
 
 
@@ -188,7 +189,7 @@ Before you begin, ensure you have:
 
    ## 🎥 Demo Video
 
-      [Link to your presentation video]
+      https://drive.google.com/file/d/12pOvj0UBXQjLvpahAEZzu4-53tPOLr14/view?usp=drivesdk
 
    ## 👨‍💻 Author
 
@@ -197,4 +198,4 @@ Before you begin, ensure you have:
    ## 📄 License
 
       This project is created for educational and evaluation purposes.
-      All rights reserved © 2025 Amal.
+      All rights reserved © 2025 Amal Sunny.
