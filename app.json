@@ -24,7 +24,8 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "name": "NoteFlow",
+      "favicon": "./assets/images/notebook_04.png"
     },
     "plugins": [
       "expo-router",
