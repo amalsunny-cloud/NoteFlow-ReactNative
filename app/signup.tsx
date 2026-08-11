@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import {
   View,
   Text,
+  Image,
   TextInput,
   TouchableOpacity,
   StyleSheet,
@@ -73,6 +74,11 @@ export default function SignUpScreen({ navigation }: any) {
 
   return (
     <View style={styles.container}>
+      <Image
+        source={require("../assets/images/noteFlow-Register.png")}
+        style={{ width: 100, height: 100 }}
+        resizeMode="contain"
+      />
       <Text style={styles.title}>Create Account</Text>
       <TextInput
         style={styles.input}

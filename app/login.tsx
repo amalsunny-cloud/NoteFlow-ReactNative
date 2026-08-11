@@ -1,11 +1,10 @@
-import {
-  signInWithEmailAndPassword,
-} from "firebase/auth";
+import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import {
   Text,
   TextInput,
   View,
+  Image,
   TouchableOpacity,
   StyleSheet,
   ActivityIndicator,
@@ -37,7 +36,7 @@ export default function LoginScreen({ navigation }: any) {
       const userCredential = await signInWithEmailAndPassword(
         auth,
         email,
-        password
+        password,
       );
       const user = userCredential.user;
 
@@ -76,7 +75,15 @@ export default function LoginScreen({ navigation }: any) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Log In to Continue</Text>
+      <View>
+        <Image
+          source={require("../assets/images/noteFlow-Login.png")}
+          style={{ width: 100, height: 200 }}
+          resizeMode="contain"
+        />
+      </View>
+
+      <Text style={styles.title}>LogIn to Continue</Text>
       <TextInput
         style={styles.input}
         placeholder="Email"
